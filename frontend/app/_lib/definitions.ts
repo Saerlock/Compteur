@@ -4,6 +4,7 @@ type Counter = {
   value: number,
   description: string,
   target: number,
+  user_id: number,
   createdAt: string,
   updatedAt: string
 }
@@ -13,4 +14,8 @@ type User = {
   firstname: string,
   lastname: string,
   email: string
+}
+
+interface InputFields {
+  [key: string]: string;
 }

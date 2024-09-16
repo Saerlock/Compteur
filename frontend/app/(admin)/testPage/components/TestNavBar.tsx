@@ -1,10 +1,9 @@
 'use client'
 
-import Avatar from "@/app/components/Avatar";
 import Image from "next/image";
 import Link from "next/link";
-import NavLinks from "../../components/NavLinks";
-import UserDropdown from "../../components/UserDropdown";
+import NavLinks from "../../../_components/NavLinks";
+import UserDropdown from "../../../_components/UserDropdown";
 import clsx from "clsx";
 
 import { useState } from "react";

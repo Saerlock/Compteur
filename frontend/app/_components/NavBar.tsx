@@ -1,6 +1,6 @@
 'use client'
 
-import Avatar from "@/app/components/Avatar";
+import Avatar from "@/app/_components/Avatar";
 import Image from "next/image";
 import Link from "next/link";
 import NavLinks from "./NavLinks";
