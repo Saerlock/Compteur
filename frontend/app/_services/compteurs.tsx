@@ -1,7 +1,7 @@
-export async function getCompteurs() {
-  const response = await fetch("http://nginx/api/counter", { next: { revalidate: 3600 } });
+export async function getCounters() {
+  const response = await fetch("http://backend:3001/counter", { cache: 'no-store' } );
   if (!response.ok) {
-    throw new Error("Error fetching counter data...");
+    throw new Error("Error fetching counters data...");
   }
   return response.json();
 };
