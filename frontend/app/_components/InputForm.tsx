@@ -36,7 +36,7 @@ export default function InputForm({ inputs } : { inputs: string[] }) {
         </div>
       )}
       {/* <a href="/privacypolicy" className="font-medium text-blue-600 hover:underline dark:text-blue-500">Privacy Policy</a> */}
-      <Button func={submitFormData}>Submit</Button>
+      <Button onClick={submitFormData}>Submit</Button>
       <SecurityWarning />
     </div>
   )

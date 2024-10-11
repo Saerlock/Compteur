@@ -9,6 +9,7 @@ export default function NavLinks() {
 
   const pageLinks: {title: string, link: string}[] = [
     {title: 'Home', link: '/home'},
+    {title: 'Compteurs', link: '/counters'},
     {title: 'Dashboard', link: '/dashboard'}
   ]
   
